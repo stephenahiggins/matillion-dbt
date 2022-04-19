@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+    - name: matillion_dim_airports
+      description: "A starter dbt model"
+      columns:
+          - name: iata
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null

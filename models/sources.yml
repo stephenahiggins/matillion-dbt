@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: mtln
+    schema: sb_test
+    tables:
+      - name: states
+        identifier: matillion_us_state_lookup
+      - name: airports
+        identifier: matillion_stg_airports
